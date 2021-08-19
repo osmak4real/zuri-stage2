@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+input {
+   
+    display: none;
+  } 
+  
+  section > div {  
+    display: none;
+    padding-right: 15px;
+  }
+
+  #resume{
+      border: solid black 5px;
+      border-radius: 200px / 80px;
+      width: 300px;
+      height: 600px;
+      background: hsla(339, 100%, 55%, 1);
+
+background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+  }
+
+  h2 label {
+      font-family: 'Merriweather', serif;
+  }
+  h2 .fa{
+        font-size: smaller;
+  }
+  
+  #radio-section-0:checked ~ #section-0 > div {
+      background-color:#e81cff;
+    display: block;
+  }
+  
+  #radio-section-1:checked ~ #section-1 > div {
+    display: block;
+    background-color: #fbe9d7; 
+  }
+  
+  #radio-section-2:checked ~ #section-2 > div {
+    display: block;
+    background-color: #84ffc9; 
+  }
+
+  #radio-section-3:checked ~ #section-3 > div {
+    display: block;
+    background-color:turquoise; 
+  }
+
+  #radio-section-4:checked ~ #section-4 > div {
+    display: block;
+  }
+
+  #radio-section-5:checked ~ #section-5 > div {
+    display: block;
+  }
+section li{
+    font-family: 'Karla', sans-serif;
+    /* text-align: center; */
+    list-style: none;
+    padding-right: 25px;
+}
+span .fa{ 
+    padding: 0 5px 0 15px;
+
+}
+
+img{
+    width: 50px;
+    height: 30px;
+}
+
+.fcf-body {
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+    
+    
+}
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 25px;
+    padding-left: 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+    border: 1px solid #313131;
+}
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+    width: 100%;
+}
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: red;
+}
+
